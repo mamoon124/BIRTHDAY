@@ -1,0 +1,58 @@
+* {
+    transition: 0.2s ease-in-out;
+}
+body{
+    background: #008888;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background: #fdfdfd;
+    border-radius: 4px;
+    height: 85vh;
+    width: 85vw;
+    box-shadow: rgba(red, green, blue, alpha);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    
+    
+
+}
+
+@media screen {
+    .card{
+        flex-direction: row-reverse;
+    }
+    
+}
+.card img.birthday{
+    max-height: 50%;
+}
+
+img.birthday{
+    max-height: 40vh;
+
+}
+.text{
+    font-style: italic;
+}
+.para{
+    height: 100px;
+    font-size: x-small;
+}
+.space{
+    height: 1px;
+}
+.Button{
+    width: 50vh;
+    font-style: italic;
+}
+.Audio{
+    size: 10px;
+}
