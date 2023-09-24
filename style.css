@@ -41,6 +41,7 @@ img.birthday{
 }
 .text{
     font-style: italic;
+    text-align: center;
 }
 .para{
     height: 100px;
